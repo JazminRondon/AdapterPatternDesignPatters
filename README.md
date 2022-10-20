@@ -36,8 +36,12 @@ DESIGN PATTERNS are typical solutions to commonly occuring problems/blueprint.
 
 #ADAPTER
 
-Adapter is also known as: Wrapper
+Adapter is also known as: Wrapper 
 
-Adapter is a STRUCTUAL design patters that allows objects with incompatible interfaces to collaborat. 
+Adapter is a STRUCTUAL design patters that allows objects with incompatible interfaces to collaborat.Makes sure incompatible classes work together. 
 
 This is a special object that converts the interface of one object to another object so it can understand it. 
+
+A class adapter uses inheritance and would only wrap a class
+
+While an object adapter uses composition and can wrap classes or interfaces 
