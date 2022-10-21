@@ -45,3 +45,22 @@ This is a special object that converts the interface of one object to another ob
 A class adapter uses inheritance and would only wrap a class
 
 While an object adapter uses composition and can wrap classes or interfaces 
+
+
+
+#PROTOTYPES
+
+They are a CREATIONAL Pattern used to copy an instantized object
+
+Usually implemented with a Registry to store original object and clones
+
+Used by implementing Cloneable or Prototype interfaces in object class
+
+Used to creat mult instances of an object quick and acoid costly creation. 
+
+
+#SINGLETON
+
+Singleton is a CREATIONAL design pattern that lets you ensure that a class has only one instance while providing a global access point to this instance. 
+
+
