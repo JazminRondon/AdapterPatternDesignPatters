@@ -65,5 +65,14 @@ Singleton is a CREATIONAL design pattern that lets you ensure that a class has o
 
 #FACTORY METHOD
 
+Factory Method Pattern suggests that you replace creating new objects with calls to spcial factory methods. The objects are still created via the new operator, but it's being called from within the factory method. 
+
+Factory method is known to be the opposite of the Singleton pattern
+
+It doesn't expose instantiation logic(the client doesn't know anything about the type of objects being created)
+
+Defers instantiation to the subclasses (parameters are used to determine the concrete type)
+
+
 
 
